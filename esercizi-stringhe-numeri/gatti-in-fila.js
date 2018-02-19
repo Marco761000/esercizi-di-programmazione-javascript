@@ -18,4 +18,4 @@ var inFila = 2;
 var fileTotali = Math.ceil(gatti/inFila);
 var gattiMancanti = fileTotali*inFila-gatti;
 
-console.log(`${gatti} gatti si divisero in${fileTotali}. Nell ultima fila rimane ${gattiMancanti} posto libero.`);
+console.log(`${gatti} gatti si divisero in ${fileTotali} file. Nell ultima fila rimane ${gattiMancanti} posto libero.`);
