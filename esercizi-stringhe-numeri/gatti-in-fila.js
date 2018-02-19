@@ -12,3 +12,10 @@
   Hint: Se vuoi usare l'arrotondamento ti consiglio di non usare Math.round (arrotonda all'intero superiore solo da .5 in su) ma utilizza Math.ceil (arrotonda sempre all'intero superiore).
   http://www.imparareaprogrammare.it
 */
+
+var gatti = 5;
+var inFila = 2;
+var fileTotali = Math.ceil(gatti/inFila);
+var gattiMancanti = fileTotali*inFila-gatti;
+
+console.log('$(gatti) gatti si divisero in$(fileTotali).Nell ultima fila rimane $(gattiMancanti) posto libero.';
