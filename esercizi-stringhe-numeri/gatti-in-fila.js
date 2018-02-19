@@ -13,8 +13,8 @@
   http://www.imparareaprogrammare.it
 */
 
-var gatti = 5;
-var inFila = 2;
+var gatti = 44;
+var inFila = 8;
 var fileTotali = Math.ceil(gatti/inFila);
 var gattiMancanti = fileTotali*inFila-gatti;
 
