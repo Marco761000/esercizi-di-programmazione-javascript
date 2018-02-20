@@ -3,3 +3,12 @@
   Scrivi un programma che prenda in input 5 numeri a tua scelta e restituisca in output la somma e la media.
   http://www.imparareaprogrammare.it
 */
+var n1 = 1;
+var n2 = 2;
+var n3 = 3;
+var n4 = 4;
+var n5 = 5;
+
+var somma = n1+n2+n3+n4+n5;
+var media = somma/5;
+console.log(`La somma dei numeri è ${somma}. La media dei numeri è ${media}`);
