@@ -7,7 +7,7 @@
   http://www.imparareaprogrammare.it
 */
 
-var sec = 17998;
+var sec = 7480;
 var ore = Math.floor(sec/3600); //ore arrotondate
 var secRim = sec-(ore*3600); //secondi rimanenti dopo la sottrazione delle ore in secondi
 var min = Math.floor(secRim/60); //minuti arrotondati
