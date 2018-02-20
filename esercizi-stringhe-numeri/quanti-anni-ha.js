@@ -5,10 +5,10 @@
 */
 
 var annoNascita = 1976;
-var annoIncorso = 2028;
+var annoIncorso = 2018;
 
 var anniPersona = annoIncorso - annoNascita;
-var anniDaraggiungere = 200;
+var anniDaraggiungere = 100;
 var anniMancanti = anniDaraggiungere - anniPersona;
 
 console.log(`Mario ha ${anniPersona} anni. Per arrivare a ${anniDaraggiungere}, gli mancano ${anniMancanti} anni.`);
