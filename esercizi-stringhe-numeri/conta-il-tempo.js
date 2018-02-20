@@ -7,14 +7,10 @@
   http://www.imparareaprogrammare.it
 */
 
-var sec = 12560;
-var h = 3600;
-var m = 60;
-var ore = Math.round(sec/h); //ore arrotondate
-var oreInS = h*ore;  //ore arrotondate trasformate in secondi
-var secRim = sec-oreInS; //secondi rimanenti dopo la sottrazione delle ore in secondi
-var min = Math.round(secRim/m); //minuti arrotondati
-var minInS = min*m;  //minuti arrotondati trasformati in secondi
-var secResto = secRim-minInS; //resto in secondi
+var sec = 17998;
+var ore = Math.floor(sec/3600); //ore arrotondate
+var secRim = sec-(ore*3600); //secondi rimanenti dopo la sottrazione delle ore in secondi
+var min = Math.floor(secRim/60); //minuti arrotondati
+var secResto = secRim - (min*60); //resto in secondi
 
 console.log(`${sec} secondi sono:${ore} ora, ${min} minuti e ${secResto} secondi`);

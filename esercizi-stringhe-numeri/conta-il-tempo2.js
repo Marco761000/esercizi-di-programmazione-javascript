@@ -7,7 +7,7 @@
   http://www.imparareaprogrammare.it
 */
 
-var seconds = 12560;
+var seconds = 17998;
 var hour = Math.floor(seconds/3600); //ore arrotondate
 var missing = seconds - (hour*3600); //rimanente dei secondi da convertire
 var minutes = Math.floor(missing/60); //I minuti arrotondati
