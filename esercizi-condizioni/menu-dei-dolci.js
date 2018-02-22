@@ -11,15 +11,7 @@
   http://www.imparareaprogrammare.it
 */
 
-
-var a = "1. Tiramisù";
-var b = "2. Torta della Nonna";
-var c = "3. Cheesecake alla Nutella";
-var d = "4. Macedonia";
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
+console.log('MENU: \n1. Tiramisù\n2. Torta della nonna\n3. Cheesecake alla nutella\n4. Macedonia');
 
 var scelta = 4;
 
