@@ -10,7 +10,7 @@
 //altrimenti il numero è formato da quattro cifre
 
 
-var n = 123;
+var n = 4864;
 
 if (n/10<1) {
   console.log(`Il numero ${n} è formato da una cifra`);
