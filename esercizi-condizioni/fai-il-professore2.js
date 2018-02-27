@@ -13,7 +13,7 @@
   Realizzare una versione con il costrutto Switch-Case.
   http://www.imparareaprogrammare.it
 */
-var v = 18;
+var v = 20;
 
 switch (v) {
   case 1:
